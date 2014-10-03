@@ -1,0 +1,14 @@
+/* ==========================================================================
+	#Fonts
+========================================================================== */
+@font-face {
+    font-family: 'SofiaProLight';
+    src: url('fonts/SofiaProLight-webfont.eot');
+    src: url('fonts/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SofiaProLight-webfont.woff2') format('woff2'),
+         url('fonts/SofiaProLight-webfont.woff') format('woff'),
+         url('fonts/SofiaProLight-webfont.ttf') format('truetype'),
+         url('fonts/SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,370 @@
+/* ==========================================================================
+	#Media Queries
+========================================================================== */
+@media (max-width: 1170px) {
+	/* ==========================================================================
+		#Base
+	========================================================================== */
+	body { font-size: 15px; }
+
+	h1 { font-size: 40px; }
+
+	/* ==========================================================================
+		#Containers
+	========================================================================== */
+	.shell { width: 940px; }
+
+	/* ==========================================================================
+		#Button
+	========================================================================== */
+	.btn { min-width: 300px; }
+
+	/* ==========================================================================
+		#Header
+	========================================================================== */
+	.nav { margin-left: 43px; }
+	.nav li + li { padding-left: 21px; }
+	.nav .login { padding-right: 17px; }
+	.nav a { font-weight: normal; }
+
+	.search { width: 170px; }
+	.search-field { padding: 0 30px 0 10px; }
+
+	/* ==========================================================================
+		#Slider
+	========================================================================== */
+	.slide-image { height: 425px; }
+	.slider-content { top: 132px; width: 750px; margin-left: -375px; font-size: 16px; }
+	.slider-title { font-size: 50px; }
+	.slider-entry { padding-bottom: 9px; }
+	.bx-next { margin-right: -470px; }
+	.bx-prev { margin-left: -470px; }
+
+	/* ==========================================================================
+		#Section
+	========================================================================== */
+	.section { padding: 57px 0 64px; }
+	.section-head { padding: 0 150px 21px; }
+	.section-title { padding-bottom: 6px; }
+
+	/* ==========================================================================
+		#Section Testimonials
+	========================================================================== */
+	.section-testimonials { padding: 54px 0 40px; }
+	.testimonial { padding: 20px 100px; }
+	.testimonial-entry { padding-bottom: 22px; font-size: 20px; }
+	.testimonial-entry:before { left: -42px; }
+	.testimonial-entry:after { bottom: 16px; right: -39px; }
+
+	/* ==========================================================================
+		#Section Services
+	========================================================================== */
+	.section-services-beige { padding-bottom: 73px; }
+	.service-entry { padding-top: 7px; font-size: 16px; }
+	.service-entry p { padding-bottom: 11px; }
+
+	/* ==========================================================================
+		#Section Join
+	========================================================================== */
+	.section-join { padding-bottom: 74px; }
+	.section-join .section-head { padding-bottom: 12px; }
+
+	/* ==========================================================================
+		#Section About
+	========================================================================== */
+	.section-about { min-height: 0; padding-bottom: 82px; }
+	.section-about .section-content { width: auto; margin-left: 0; }
+	
+	.about-title { padding-bottom: 22px; text-align: center; }
+	.about-image { position: static; float: left; width: 450px; height: 310px; margin-top: 7px; }
+	.about-entry { overflow: hidden; padding-left: 40px; line-height: 1.67; }
+
+	.tab { overflow: hidden; }
+	.tabs-head { padding-bottom: 33px; text-align: center; }
+	.tabs-nav ul {  font-size: 0; line-height: 0; }
+	.tabs-nav li { display: inline-block; float: none; }
+	.tabs-nav a { line-height: 1.75; }
+
+	/* ==========================================================================
+		#Section Publications
+	========================================================================== */
+	.section-publications { padding: 80px 0 58px; }
+	
+	.publications { margin: 0 -10px; }
+	.publication { padding: 0 10px; }
+	.publication-entry { line-height: 1.67; }
+
+	/* ==========================================================================
+		#Section Contacts
+	========================================================================== */
+	.section-contacts { padding-bottom: 432px; }
+	.section-contacts .map { width: 100%; top: auto; bottom: 0; left: 0; height: 350px; }
+	.section-contacts .section-content { width: auto; padding: 0 90px; }
+	
+	.field,
+	.textarea,
+	.selecter { width: 100%; }
+
+	.form-cols { margin: 0 -10px; }
+	.form-col { float: left; width: 50%; padding: 0 10px;
+		-webkit-box-sizing: border-box; 
+		-moz-box-sizing: border-box; 
+		box-sizing: border-box; 
+	}
+	
+	.form-head,
+	.form-actions { text-align: center; }
+
+	.form-head { padding-bottom: 22px; }
+
+	/* ==========================================================================
+		#Footer
+	========================================================================== */
+	.footer-actions { padding-bottom: 25px; }
+	.footer-nav { padding-bottom: 6px; }
+	.footer-nav li + li { padding-left: 27px; }
+	.footer-nav a { font-size: 15px; }
+}
+
+@media (max-width: 939px) {
+	/* ==========================================================================
+		#Containers
+	========================================================================== */
+	.shell { width: 724px; }
+
+	/* ==========================================================================
+		#Buttons
+	========================================================================== */
+	.btn { min-width: 268px; }
+
+	/* ==========================================================================
+		#Header
+	========================================================================== */
+	.header { position: relative; z-index: 55; background: #5a6770; }
+	.header .shell { position: relative; }
+
+	.nav-toggle { position: absolute; top: 24px; right: 0; display: block; width: 32px; height: 22px; background: url(images/sprite.png) -196px -156px no-repeat; cursor: pointer; }
+	.nav ul { position: absolute; top: 100%; right: 0; z-index: 53; width: 228px; opacity: 0; visibility: hidden;
+		-webkit-transition: 0.3s opacity, 0.3s visibility; 
+		-o-transition: 0.3s opacity, 0.3s visibility; 
+		transition: 0.3s opacity, 0.3s visibility; 
+	}
+	.nav.open ul { opacity: 1; visibility: visible; }
+	.nav.open .nav-toggle { background-position: -233px -207px; }
+	.nav li { float: none; }
+	.nav .login,
+	.nav li + li { padding: 0; }
+	.nav .login { border-right: 0; }
+	.nav li + li { border-top: 2px solid #5b6770; }
+	.nav a { display: block; padding: 15px 22px 17px; background: #495761; }
+	.nav a:hover { background: #5b6770; }
+
+	.search { width: 228px; margin-right: 61px; }
+
+	.profile { margin-right: 62px; margin-left: -31px;  }
+	.profile .profile-name { display: none; }
+
+	/* ==========================================================================
+		#Slider
+	========================================================================== */
+	.slider-content { top: 83px; left: auto; width: 100%; margin-left: 0; }
+	.slider-entry { display: none; }
+	.slider-title { padding-bottom: 12px; }
+	.slide-image { height: 325px; }
+	
+	.bx-prev,
+	.bx-next { margin-top: -25px; z-index: 54; }
+	.bx-next { margin-right: -362px; }
+	.bx-prev { margin-left: -362px; }
+
+	/* ==========================================================================
+		#Section
+	========================================================================== */
+	.section { padding: 47px 0 69px; }
+	.section-head { padding: 0 50px 21px; }
+
+	/* ==========================================================================
+		#Section Testimonials
+	========================================================================== */
+	.section-testimonials { padding: 52px 0 38px; }
+	.testimonial { padding: 20px 80px; }
+	.testimonial-entry { line-height: 1.5; }
+
+	.testimonial-entry:before { left: -32px; }
+	.testimonial-entry:after { bottom: 26px; right: -29px; }
+
+	/* ==========================================================================
+		#Section Services
+	========================================================================== */
+	.section-services-beige { padding: 57px 0 72px; }
+	.section-services-beige .section-head { padding-bottom: 22px; }
+	.service-entry { padding-top: 12px; }
+	.service-entry br { display: none; }
+	.service-entry p { padding-bottom: 6px; }
+	.service-title { margin-bottom: -5px; padding-bottom: 1px; }
+	.service-image { margin-bottom: 12px; }
+
+	/* ==========================================================================
+		#Section Join
+	========================================================================== */
+	.section-join { padding: 57px 0 74px; }
+
+	/* ==========================================================================
+		#Section About
+	========================================================================== */
+	.section-about { padding: 57px 0 33px; }
+
+	.about-image { float: none; width: auto; height: 500px; margin-bottom: 23px; }
+	.about-entry { padding-left: 0; }
+
+	/* ==========================================================================
+		#Section Publications
+	========================================================================== */
+	.section-publications { padding: 79px 0 58px; }
+	.publication-author { padding-bottom: 15px; }
+
+	/* ==========================================================================
+		#Section Contact
+	========================================================================== */
+	.section-contacts { padding: 57px 0 413px; }
+	.section-contacts .section-content { padding: 0; }
+
+	/* ==========================================================================
+		#Footer
+	========================================================================== */
+	.socials,
+	.footer-inner { float: none; }
+
+	.footer-body { text-align: center; }
+	
+	.socials li,
+	.footer-nav li { float: none; display: inline-block; }
+
+	.socials li + li,
+	.footer-nav li + li { padding-left: 0; }
+
+	.footer-nav li { padding: 0 24px; }
+
+	.socials { padding-top: 0; }
+	.socials li { padding: 0 5px; }
+
+	.copyright { padding-bottom: 13px; }
+
+	/* ==========================================================================
+		#Popup
+	========================================================================== */
+	.popup { width: 724px; }
+
+}
+
+@media (max-width: 723px) {
+	/* ==========================================================================
+		#Containers
+	========================================================================== */
+	.shell { width: auto; padding: 0 20px; }
+
+	/* ==========================================================================
+		#Header
+	========================================================================== */
+	.header .shell { padding: 15px 20px; }
+
+	.nav-toggle { right: 20px; }
+	.nav { width: 0; height: 0; padding: 0; }
+
+	.search { width: 170px; margin-right: 59px; }
+
+	.profile { display: none; }
+
+	.nav .profile { display: block; float: none; margin: 0; }
+	.nav .profile .profile-name { display: inline-block; }
+
+	/* ==========================================================================
+		#Slider
+	========================================================================== */
+	.slider-content { top: 31px; }
+	.slider-title { padding-bottom: 16px; font-size: 40px; }
+	.slide-image { height: 210px; }
+	.bx-prev,
+	.bx-next,
+	.bx-pager { display: none; }
+
+	/* ==========================================================================
+		#Section
+	========================================================================== */
+	.section { padding: 49px 0 30px; }
+	.section-head { padding: 0 0 11px; }
+	.section-title { line-height: 1.2; }
+
+	/* ==========================================================================
+		#Section Testimonials
+	========================================================================== */
+	.section-testimonials { padding: 33px 0 18px; }
+	.testimonial { padding: 20px 25px; }
+	.testimonial-entry { font-size: 17px; line-height: 1.59; }
+
+	/* ==========================================================================
+		#Section Services
+	========================================================================== */
+	.services { margin: 0; }
+	.service { float: none; width: auto; padding: 0 0 18px; }
+	.service-image { margin-bottom: 2px; }
+	.service-title { padding-top: 5px; margin-bottom: -10px; }
+	.service-actions { padding-bottom: 5px; }
+	
+	/* ==========================================================================
+		#Section Join
+	========================================================================== */
+	.section-join { padding-bottom: 54px; }
+
+	/* ==========================================================================
+		#Section About
+	========================================================================== */
+	.section-about { padding-top: 37px; }
+	.about-title { padding-bottom: 11px; }
+	.about-image { height: 311px; }
+
+	.tabs-head { padding-bottom: 23px; }
+	
+	/* ==========================================================================
+		#Section Publications
+	========================================================================== */
+	.publication { float: none; width: auto; padding: 0; }
+	.publication ~ .publication { padding-top: 16px; }
+
+	/* ==========================================================================
+		#Section Contact
+	========================================================================== */
+	.section-contacts { padding: 37px 0 412px; }
+	.section-contacts .section-content { padding: 0 45px; }
+
+	.form-actions { text-align: left; }
+	
+	.form-cols { margin: 0; }
+	.form-col { float: none; width: auto; padding: 0; }
+
+	/* ==========================================================================
+		#Popup
+	========================================================================== */
+	.popup { width: 460px; }
+	.popup-body { font-size: 16px; }
+
+	#cboxClose { top: -40px; right: 0; }
+}
+
+@media (max-width: 459px) {
+	.search { display: none; }
+
+	.slider-title { font-size: 25px; }
+
+	.tabs-nav a { width: 92px; font-size: 10px; }
+
+	.section-contacts .section-content { padding: 0; }
+
+	/* ==========================================================================
+		#Popup
+	========================================================================== */
+	.popup { width: 300px; }
+	.popup-login { width: 300px; }
+
+
+}
